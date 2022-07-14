@@ -1,5 +1,63 @@
 @if($cookieConsentConfig['enabled'] && ! $alreadyConsentedWithCookies)
 
+    <style>
+        .cookie-consent {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .cookie-consent .camada-2 {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        .cookie-consent .camada-3 {
+            padding: 8px;
+        }
+
+        .cookie-consent .camada-4 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            /* flex-wrap: wrap; */  
+        }
+
+        .cookie-consent .camada-5 {
+            /* width: 0; */
+        }
+
+        .cookie-consent__message {
+            color: #fff;
+        }
+
+        .cookie-consent__message a {
+            color: #a92be9;
+        }
+
+        .cookie-consent__message a:hover {
+            color: #ad62d3;
+            transition: .5s;
+        }
+
+        .cookie-consent__agree {
+            border: none;
+            border-radius: 20px;
+            padding: 8px 18px;
+            color: #000;
+            background-color: #fff;
+        }
+
+        .cookie-consent__agree:hover {
+            color: #fff;
+            background-color: #000;
+            transition: .2s linear;
+        }
+
+    </style>
+
     @include('cookie-consent::dialogContents')
 
     <script>
