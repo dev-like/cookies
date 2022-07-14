@@ -1,6 +1,6 @@
 {
     "name": "likedsg/cookie-consent",
-    "description": "Make your Laravel app comply with the crazy EU cookie law",
+    "description": "Consentimento de cookies",
     "keywords": [
         "likedsg",
         "cookie-consent",
@@ -9,7 +9,6 @@
         "law",
         "eu"
     ],
-    "homepage": "https://github.com/spatie/cookie-consent",
     "license": "MIT",
     "authors": [
         {
