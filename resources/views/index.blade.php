@@ -8,6 +8,7 @@
             width: 100%;
             background-color: rgba(0, 0, 0, 0.7);
             z-index: 99999;
+            padding: 10px 0;
         }
 
         .cookie-consent .camada-2 {
@@ -32,6 +33,8 @@
 
         .cookie-consent__message {
             color: #fff;
+            text-align: justify;
+            padding-right: 50px;
         }
 
         .cookie-consent__message a {
@@ -49,6 +52,7 @@
             padding: 8px 18px;
             color: #000;
             background-color: #fff;
+            cursor: pointer;
         }
 
         .cookie-consent__agree:hover {
