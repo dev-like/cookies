@@ -3,18 +3,18 @@
 return [
 
     /*
-     * Use this setting to enable the cookie consent dialog.
+     * Use esta configuração para ativar a caixa de diálogo de consentimento de cookies.
      */
     'enabled' => env('COOKIE_CONSENT_ENABLED', true),
 
     /*
-     * The name of the cookie in which we store if the user
-     * has agreed to accept the conditions.
+     * O nome do cookie no qual armazenamos caso o usuário
+     * tenha concordado em aceitar as condições.
      */
     'cookie_name' => 'laravel_cookie_consent',
 
     /*
-     * Set the cookie duration in days.  Default is 365 * 20.
+     * Defina a duração do cookie em dias. O padrão é 365 * 20.
      */
-    'cookie_lifetime' => 365 * 1,
+    'cookie_lifetime' => 30,
 ];

@@ -5,13 +5,13 @@
                 <div class="camada-5 flex-1 items-center hidden md:inline">
                     <p class="ml-3 text-black cookie-consent__message">
                         Utilizamos cookies para personalizar a sua experiência. Ao acessar o site, você concorda com a nossa <a href="#">Política de Privacidade.</a>
-                        <!-- {!! trans('cookie-consent::texts.message') !!} -->
+                        {{-- {!! trans('cookie-consent::texts.message') !!} --}}
                     </p>
                 </div>
                 <div class="mt-2 flex-shrink-0 w-full sm:mt-0 sm:w-auto">
                     <button class="js-cookie-consent-agree cookie-consent__agree">
                         Aceitar
-                        <!-- {{ trans('cookie-consent::texts.agree') }} -->
+                        {{-- {{ trans('cookie-consent::texts.agree') }} --}}
                     </button>
                 </div>
             </div>
