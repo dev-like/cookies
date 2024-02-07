@@ -2,8 +2,8 @@
 
 namespace Likedsg\CookieConsent\Test;
 
-use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Likedsg\CookieConsent\CookieConsentServiceProvider;
+use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
 {
